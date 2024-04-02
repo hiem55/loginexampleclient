@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     };
-    xhr.open('POST', 'https://loginexampleserver.vercel.app/', true);
+    xhr.open('POST', 'https://loginexampleserver.vercel.app/login', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify({ username, password }));
   };

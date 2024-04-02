@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
         alert(xhr.responseText);
       }
     };
-    xhr.open('GET', 'http://localhost:3000/something', true);
+    xhr.open('GET', 'https://loginexampleserver.vercel.app/something', true);
     xhr.send();
   };
   // Initial setup: hide the logout label and ensure 
